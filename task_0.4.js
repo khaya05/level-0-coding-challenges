@@ -4,6 +4,4 @@ const evenOrOdd = function (number) {
     } else {
         return 'odd';
     };
-}
-
-console.log(evenOrOdd(21));
+};
