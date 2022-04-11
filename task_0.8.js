@@ -2,6 +2,9 @@
     if (number < 60) {
         return number + ` ${number > 1 ? 'minutes' : 'minute'}`
     }
+    else if (number === 60) {
+        return '1 hour'
+     }
     else if (number > 60) {
         const numberOfHrs = Math.floor(number / 60);
         const minutes = number % 60;
