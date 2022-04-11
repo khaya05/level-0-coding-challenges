@@ -7,5 +7,5 @@ function getVowels(str) {
             vowelsInStr.push(vowel);
         }
     };
-     return vowelsInStr.join(', ');
+     return 'Vowels: ' + vowelsInStr.join(', ');
 };
