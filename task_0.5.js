@@ -1,5 +1,6 @@
-function calcArea(a, b, c) {
-    let s = 0.5 * (a + b + c);  
-    const area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+function calcArea(sideA, sideB, sideC) {
+    const semiperimeter = 0.5 * (sideA + sideB + sideC);  
+    const area = Math.sqrt(semiperimeter * (semiperimeter - sideA) *
+        (semiperimeter - sideB) * (semiperimeter - sideC));
     return area;
 };
